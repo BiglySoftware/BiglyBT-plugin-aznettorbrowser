@@ -71,7 +71,7 @@ There are no additions or changes beyond this to the 'Tor Browser' components.
 The result is a stand-alone Tor Browser that doesn't start/control a Tor instance. One side effect of this is that
 the 'new identify' feature of the TorButton is missing (as there is no control-connection)
 
-The Vuze plugin is responsible for managing the Tor instance lifecycle and setting the browser's SOCKS port configuration appropriately. 
+The BiglyBT plugin is responsible for managing the Tor instance lifecycle and setting the browser's SOCKS port configuration appropriately. 
 
 LICENSES
 
@@ -96,9 +96,9 @@ include the bundles themselves. Look for "source" packages on the Vidalia page a
 
 ---- quote end ----
 
-The Tor software itself is not included in this plugin, rather it can be found in the 'aznettor' plugin:  
+The Tor software itself is not included in this plugin, rather it can be found in the 'Tor Helper' plugin:  
 
-	http://plugins.vuze.com/plugin_details.php?plugin=aznettor
+	http://plugins.biglybt.com/
 
 When the above 'distributing tor' link was last consulted it still included references to Vidalia for the 
 bundle, which has been removed.
