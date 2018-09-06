@@ -3,6 +3,11 @@ The 'Tor Browser' components included in this plugin are derived directly from t
 -- versions 6.0 and higher
 
 Mac: Fairly major change to the browser (linux/windows is the same)
+
+*** Since 8.0 ***
+
+Rename "Tor Browser.app" to "TorBrowser.app"
+
    	.\Contents\Resources\TorBrowser\Docs
 	.\Contents\Resources\TorBrowser\Tor
 	.\Contents\MacOS\Tor
