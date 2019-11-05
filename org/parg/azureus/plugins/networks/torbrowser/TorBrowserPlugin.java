@@ -757,6 +757,12 @@ TorBrowserPlugin
 		user_pref.put("extensions.torbutton.lastUpdateCheck", "1999999999.000" );	// we handle this
 		user_pref.put("extensions.torbutton.updateNeeded", false );	// we handle this
 
+			// these 3 since 9.0
+		
+		user_pref.put("app.update.auto", false);
+		user_pref.put("app.update.lastUpdateTime.addon-background-update-timer", 1999999999 );
+		user_pref.put("extensions.torlauncher.start_tor", false);
+		
 		Set<String>	user_pref_opt = new HashSet<String>();
 		
 		user_pref_opt.add( "browser.startup.homepage" );

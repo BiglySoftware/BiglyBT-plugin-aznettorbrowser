@@ -1,10 +1,13 @@
 The 'Tor Browser' components included in this plugin are derived directly from the release version of the product with the following removed:
 
--- versions 6.0 and higher
+*** Since 9.0 ***
 
-Mac: Fairly major change to the browser (linux/windows is the same)
+tor-launcher integrated into browser, controlled by some config changes (see plugin)
+
 
 *** Since 8.0 ***
+
+Mac: 
 
 Rename "Tor Browser.app" to "TorBrowser.app"
 
@@ -12,7 +15,12 @@ Rename "Tor Browser.app" to "TorBrowser.app"
 	.\Contents\Resources\TorBrowser\Tor
 	.\Contents\MacOS\Tor
 	.\Contents\MacOS\updater.app
-	.\Contents\Resources\distribution\extensions\tor-launcher@torproject.org.xpi
+	.\Contents\Resources\distribution\extensions\tor-launcher@torproject.org.xpi	
+	
+	
+-- versions 6.0 and higher
+	
+Mac: Fairly major change to the browser (linux/windows is the same)
 	
 -- versions 4.0 and higher
 	
